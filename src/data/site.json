@@ -9,6 +9,11 @@
   "defaultSocialImage": "/images/banner.png",
   "headerLinks": [
     {
+      "text": "Blog",
+      "url": "/blog",
+      "external": false
+    },
+    {
       "text": "Events",
       "url": "/#events",
       "external": false

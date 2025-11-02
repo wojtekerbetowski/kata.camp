@@ -1,0 +1,20 @@
+---
+layout: base
+permalink: /blog/
+title: Blog
+---
+
+<section class="post-list__wrapper">
+  <h2 class="post-list__heading">Blog</h2>
+  <ul class="post-list">
+    {% for post in collections.posts | reverse %}
+      <li class="post-list__item">
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        <div class="post-list__meta">{{ post.date | readableDate }}</div>
+        {% if post.data.description %}
+          <div class="post-list__excerpt">{{ post.data.description }}</div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
