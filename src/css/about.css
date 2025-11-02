@@ -34,10 +34,24 @@
 }
 
 .organisers__avatar {
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 96px;
+  height: auto; /* prevent cropping */
+  border-radius: 8px; /* subtle rounding */
+  object-fit: contain; /* keep full image visible */
+  display: block;
+}
+
+/* Override generic about image rules for organiser avatars */
+.about .organisers__avatar {
+  border: none;
+  float: none;
+}
+
+@media (min-width: 35.9375em) {
+  .about .organisers__avatar {
+    width: 128px; /* override .about img width */
+    height: auto;
+  }
 }
 
 .organiser__name {
