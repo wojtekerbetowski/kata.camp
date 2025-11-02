@@ -1,0 +1,31 @@
+{
+  "name": "Kata Camp",
+  "description": "Kata Camp is a community series focused on practicing and deepening software engineering skills through guided katas and hands-on sessions.",
+  "url": "https://kata.camp",
+  "author": {
+    "name": "Wojtek Erbetowski",
+    "email": "wojtek@erbetowski.pl"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "Events",
+      "url": "/#events",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    }
+  ],
+  "socialLinks": [
+    {
+      "text": "GitHub",
+      "url": "https://github.com/wojtekerbetowski/kata.camp",
+      "external": true
+    }
+  ],
+  "footerLinks": [],
+  "showFooterAttribution": false
+}

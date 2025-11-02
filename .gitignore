@@ -1,0 +1,35 @@
+# Node
+node_modules/
+.npm/
+npm-debug.log*
+yarn-error.log*
+
+# Yarn Berry (v2+)
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Build output
+public/
+dist/
+build/
+
+# Env
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+pnpm-debug.log*
+
+# Coverage
+coverage/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
