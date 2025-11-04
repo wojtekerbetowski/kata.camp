@@ -19,6 +19,11 @@
       "external": false
     },
     {
+      "text": "Tickets",
+      "url": "https://app.evenea.pl/event/ai-kata-warsaw",
+      "external": true
+    },
+    {
       "text": "About",
       "url": "/about",
       "external": false

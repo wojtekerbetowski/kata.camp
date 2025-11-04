@@ -17,7 +17,7 @@ A kata is a short, structured exercise designed to build fluency in specific ski
 
 <h2 id="events">Upcoming Events</h2>
 
-## AI Kata Warsaw – v1  
+### AI Kata Warsaw – v1
 
 **When**: Saturday, Dec 6, 10:00–18:00  
 **Where**: Google Campus, Warsaw  
@@ -26,3 +26,13 @@ A kata is a short, structured exercise designed to build fluency in specific ski
 **Notes**: Non-profit, community event; sessions in English; no recordings; food and coffee provided
 
 Expect practical, everyday uses of AI tools demonstrated by practitioners who use them daily, with guided exercises throughout the day.
+
+## Stay up to date
+
+<script async data-uid="c0989e87e4" src="https://l8-conference.kit.com/c0989e87e4/index.js"></script>
+
+## Register
+
+<iframe src="https://app.evenea.pl/event/ai-kata-warsaw/?out=1&source=event_iframe" width="100%" scrolling="no" style="border: 0;"></iframe>
+<script type="text/javascript" src="https://app.evenea.pl/js/iframe/new/iframeResizer2.js"></script>
+
