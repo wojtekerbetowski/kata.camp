@@ -6,9 +6,9 @@ tags: [announcement, partners]
 description: "Kata Camp and GDG Warsaw join forces to bring hands-on, practice-first learning to Google Campus Warsaw."
 ---
 
-[![GDG Warsaw logo](/images/gdg-warsaw-logo.svg)](https://gdg.community.dev/gdg-warsaw/)
+[![GDG Warsaw logo](/images/gdg-warsaw-logo.svg)](https://gdg.community.dev/gdg-warszawa/)
 
-Learn more about GDG Warsaw at [gdg.community.dev/gdg-warsaw](https://gdg.community.dev/gdg-warsaw/).
+Learn more about GDG Warsaw at [gdg.community.dev/gdg-warszawa](https://gdg.community.dev/gdg-warszawa/).
 
 We're excited to share that Kata Camp is partnering with **GDG Warsaw**. We're united by a simple idea: the best way to get better at engineering is to practice the real thing - together, often, and with guidance from practitioners who do it every day.
 
