@@ -18,7 +18,7 @@ Contact: wojtek@kata.camp
 Wojtek Erbetowski  
 [wojtek@erbetowski.pl](mailto:wojtek@erbetowski.pl)
 
-![Weronika Szczegielniak](src/images/weronika.png)
+![Weronika Szczegielniak](/images/weronika.png)
 
 Weronika Szczegielniak  
 [wer.szczegielniak@gmail.com](mailto:wer.szczegielniak@gmail.com)
