@@ -6,15 +6,15 @@
 <title>Organisers — Cards</title>
 <style>
   :root{
-    --max-width:800px;
+    --max-width:900px;
     --card-gap:20px;
     --card-radius:12px;
-    --avatar-size:120px;
+    --avatar-size:180px;
     --accent:#222;
     --muted:#666;
     --card-bg:#ffffff;
     --surface:#fbfbfb;
-    --shadow: 0 8px 24px rgba(16,24,40,0.06);
+    --shadow: 0 10px 30px rgba(16,24,40,0.06);
   }
 
   html,body{
@@ -29,13 +29,13 @@
 
   .page {
     max-width: var(--max-width);
-    margin: 40px auto;
+    margin: 36px auto;
     padding: 24px;
   }
 
   h1 {
     margin: 0 0 18px 0;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
   }
 
@@ -46,24 +46,26 @@
 
   .card {
     display: flex;
-    gap: 18px;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
     background: var(--card-bg);
     border-radius: var(--card-radius);
-    padding: 16px;
+    padding: 22px;
     box-shadow: var(--shadow);
-    border: 1px solid rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.04);
   }
 
-  /* Avatar */
+  /* Avatar centered on top of card */
   .avatar {
     width: var(--avatar-size);
     height: var(--avatar-size);
-    flex: 0 0 var(--avatar-size);
-    border-radius: 12px;
+    border-radius: 14px;
     overflow: hidden;
     background: #f3f2f1;
     display: inline-block;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
   }
 
   .avatar img {
@@ -73,15 +75,15 @@
     display:block;
   }
 
-  /* Content */
   .info {
     min-width: 0;
+    max-width: 720px;
   }
 
   .name {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    margin: 0 0 6px 0;
+    margin: 6px 0 4px 0;
     color: var(--accent);
   }
 
@@ -107,20 +109,11 @@
   }
   .email:focus, .email:hover { text-decoration: underline; }
 
-  /* Optional: make avatar circular by uncommenting */
-  /* .avatar { border-radius: 50%; } */
-
   @media (max-width: 640px){
-    .card {
-      padding: 12px;
-      gap: 12px;
-    }
-    .avatar {
-      width: 92px;
-      height: 92px;
-      flex: 0 0 92px;
-    }
+    :root{ --avatar-size:120px; }
+    .page { padding: 16px; }
     h1 { font-size: 24px; }
+    .card { padding: 16px; }
   }
 </style>
 </head>
