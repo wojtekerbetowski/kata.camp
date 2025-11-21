@@ -13,12 +13,27 @@ Contact: wojtek@kata.camp
 
 ## Organisers
 
-![Wojtek Erbetowski](https://www.gravatar.com/avatar/b4058c5282dfb43ab3542e0f0db3d5ae?size=500)
-
-Wojtek Erbetowski  
-[wojtek@erbetowski.pl](mailto:wojtek@erbetowski.pl)
-
-![Weronika Szczegielniak](/images/weronika.png)
-
-Weronika Szczegielniak  
-[wer.szczegielniak@gmail.com](mailto:wer.szczegielniak@gmail.com)
+<div class="organisers">
+  <div class="organiser">
+    <img
+      class="organisers__avatar"
+      src="https://www.gravatar.com/avatar/b4058c5282dfb43ab3542e0f0db3d5ae?size=500"
+      alt="Portrait of Wojtek Erbetowski"
+    >
+    <div class="organiser__details">
+      <div class="organiser__name">Wojtek Erbetowski</div>
+      <a href="mailto:wojtek@erbetowski.pl">wojtek@erbetowski.pl</a>
+    </div>
+  </div>
+  <div class="organiser">
+    <img
+      class="organisers__avatar"
+      src="/images/weronika.png"
+      alt="Portrait of Weronika Szczegielniak"
+    >
+    <div class="organiser__details">
+      <div class="organiser__name">Weronika Szczegielniak</div>
+      <a href="mailto:wer.szczegielniak@gmail.com">wer.szczegielniak@gmail.com</a>
+    </div>
+  </div>
+</div>

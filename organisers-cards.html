@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Organisers — Cards</title>
+<style>
+  :root{
+    --max-width:900px;
+    --card-gap:20px;
+    --card-radius:12px;
+    --avatar-size:180px;
+    --accent:#222;
+    --muted:#666;
+    --card-bg:#ffffff;
+    --surface:#fbfbfb;
+    --shadow: 0 10px 30px rgba(16,24,40,0.06);
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: var(--surface);
+    color: var(--accent);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+
+  .page {
+    max-width: var(--max-width);
+    margin: 36px auto;
+    padding: 24px;
+  }
+
+  h1 {
+    margin: 0 0 18px 0;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .cards {
+    display: grid;
+    gap: var(--card-gap);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: 22px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+
+  /* Avatar centered on top of card */
+  .avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 14px;
+    overflow: hidden;
+    background: #f3f2f1;
+    display: inline-block;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  }
+
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display:block;
+  }
+
+  .info {
+    min-width: 0;
+    max-width: 720px;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 6px 0 4px 0;
+    color: var(--accent);
+  }
+
+  .role {
+    font-size: 14px;
+    color: var(--muted);
+    margin: 0 0 8px 0;
+  }
+
+  .bio {
+    font-size: 15px;
+    color: #333;
+    margin: 0 0 12px 0;
+    line-height: 1.45;
+  }
+
+  .email {
+    display:inline-block;
+    font-size: 14px;
+    color: #0b63d6;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(11,99,214,0.14);
+  }
+  .email:focus, .email:hover { text-decoration: underline; }
+
+  @media (max-width: 640px){
+    :root{ --avatar-size:120px; }
+    .page { padding: 16px; }
+    h1 { font-size: 24px; }
+    .card { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+  <main class="page" aria-labelledby="organisers-title">
+    <h1 id="organisers-title">Organisers</h1>
+
+    <section class="cards" role="list">
+      <!-- Card: Wojtek -->
+      <article class="card" role="listitem" aria-labelledby="name-wojtek" aria-describedby="bio-wojtek">
+        <div class="avatar" aria-hidden="true">
+          <img src="images/wojtek.jpg" alt="Wojtek Erbetowski">
+        </div>
+
+        <div class="info">
+          <h2 id="name-wojtek" class="name">Wojtek Erbetowski</h2>
+          <div class="role">Organiser</div>
+          <p id="bio-wojtek" class="bio">
+            Software developer and event organiser focused on building inclusive learning experiences.
+            (Replace this text with a short bio — 1–2 sentences is ideal.)
+          </p>
+          <a class="email" href="mailto:wojtek@erbetowski.pl">wojtek@erbetowski.pl</a>
+        </div>
+      </article>
+
+      <!-- Card: Weronika -->
+      <article class="card" role="listitem" aria-labelledby="name-weronika" aria-describedby="bio-weronika">
+        <div class="avatar" aria-hidden="true">
+          <img src="images/weronika.jpg" alt="Weronika Szczegielniak">
+        </div>
+
+        <div class="info">
+          <h2 id="name-weronika" class="name">Weronika Szczegielniak</h2>
+          <div class="role">Organiser</div>
+          <p id="bio-weronika" class="bio">
+            Event coordinator and community builder who cares about clear communication and great attendee experiences.
+            (Replace with Weronika's short bio.)
+          </p>
+          <a class="email" href="mailto:wer.szczegielniak@gmail.com">wer.szczegielniak@gmail.com</a>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

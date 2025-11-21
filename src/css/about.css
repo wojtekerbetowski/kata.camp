@@ -22,7 +22,7 @@
 /* Organisers section */
 .organisers {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -35,25 +35,34 @@
 
 .organisers__avatar {
   width: 96px;
+  flex: 0 0 96px; /* keep consistent text start */
   height: auto; /* prevent cropping */
   border-radius: 8px; /* subtle rounding */
   object-fit: contain; /* keep full image visible */
   display: block;
+  margin: 0; /* override .about img centering */
 }
 
 /* Override generic about image rules for organiser avatars */
 .about .organisers__avatar {
   border: none;
   float: none;
+  margin: 0; /* ensure no auto margins from generic img rule */
 }
 
 @media (min-width: 35.9375em) {
   .about .organisers__avatar {
     width: 128px; /* override .about img width */
+    flex: 0 0 128px; /* maintain alignment at larger sizes */
     height: auto;
   }
 }
 
 .organiser__name {
   font-weight: 600;
+}
+
+.organiser__details {
+  display: flex;
+  flex-direction: column;
 }
