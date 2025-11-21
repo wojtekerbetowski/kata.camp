@@ -6,6 +6,8 @@ tags: [announcement, cfp]
 description: "Submit a talk or kata for Kata Camp via our Google Form."
 ---
 
+> Edit (2025-11-21): The lineup is now fixed and the Call for Papers is closed.
+
 We're opening our Call for Papers for upcoming Kata Camp sessions. If you have a practical kata, talk, or hands-on workshop that helps engineers build real skills through deliberate practice, we'd love to hear from you.
 
 Submit your proposal using this form:

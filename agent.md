@@ -1,66 +1,77 @@
-# Kata Camp ? Engineer Onboarding Notes
+## Kata Camp — Engineer Onboarding and Agent Guide
 
-## What this is
-- Static website built with Eleventy (11ty), based on a streamlined Eleventy Duo theme.
-- Primary goals: share Kata Camp mission, list events, publish short blog posts.
+### What this project is
+- **Kata Camp**: community series of practice-first workshops for software engineers.
+- Focus: hands-on katas, modern engineering practices, and AI-assisted workflows.
+- First edition highlighted on the site as **AI Kata Warsaw** with registration via Evenea and partnership with GDG Warsaw.
 
-## Build and test (Docker-only)
-- Production build (outputs to `public/`):
-  - `bin/docker-build.sh`
-- Smoke test (checks key strings in the generated site):
-  - `bin/test.sh`
+### Tech stack
+- **Static site generator**: Eleventy (11ty) 2.x with Nunjucks templates
+- **Assets**: Webpack 5, Babel, PostCSS (autoprefixer, preset-env, cssnano)
+- **Content**: Markdown/Nunjucks in `src/`, Eleventy collections for posts
+- **Output**: generated to `public/`
+- **Node**: built/run in Docker using `node:20-bookworm` image
 
-## Local development (hot reload in Docker)
-- Dev server (Eleventy + webpack watch), binds to 0.0.0.0:8080:
-  - `bin/docker-dev.sh`
-  - Open http://localhost:8080
-  - Optionally set a different port: `PORT=5173 bin/docker-dev.sh`
+### Local development (Docker)
+Runs Eleventy dev server and webpack watchers inside Docker, bound to 0.0.0.0:8080.
 
-## Deploy ? Cloudflare Pages
-- Build command: `yarn build`
-- Output directory: `public`
-- `wrangler.jsonc` is present for Pages; avoid `wrangler deploy` (Workers). If needed, use `npx wrangler pages deploy public`.
+```bash
+# default: serves on http://localhost:8080in/docker-dev.sh
 
-## Content structure
-- Home: `src/index.md` (mission, "Upcoming Events" anchor `#events`)
-- About: `src/about.md` (organisers in plain markdown)
-- Blog list page: `src/blog.njk` (lists `collections.posts`)
-- Blog posts: `src/posts/*.md` (front matter `layout: post`, `title`, `date`, optional `description`, `tags`)
-- Site data / nav: `src/data/site.json`
-- Images: `src/images/` (social image + banner: `banner.png`)
+# override port (still maps to Eleventy 8080 inside container)
+PORT=5173 bin/docker-dev.sh
+```
 
-## Styling
-- CSS entry: `src/css/main.css` imports component styles.
-- Typography/variables: `src/css/typography.css`, `src/css/variable.css`.
-- About page styles: `src/css/about.css`.
-- JS entry (minimal): `src/js/main.js`.
+Notes:
+- File changes under your workspace are watched thanks to polling env vars.
+- Eleventy server host/port is configured in `.eleventy.js` (host `0.0.0.0`, port `8080`).
 
-## Eleventy configuration
-- `.eleventy.js`: sets input/output dirs, plugins, and dev server options (`host: 0.0.0.0`, `port: 8080`).
+### Production build and smoke test (Docker)
+- **Build** (installs deps and runs `yarn build`, output to `public/`):
 
-## Navigation (header links)
-- Configured in `src/data/site.json` under `headerLinks`.
-- Current items: Blog (`/blog`), Events (`/#events`), Tickets (Evenea external), About (`/about`).
+```bash
+bin/docker-build.sh
+```
 
-## Social and SEO
-- Default social image: `/images/banner.png` (set in `src/data/site.json`).
-- Favicon: `src/images/favicon.ico`.
+- **Smoke test** (verifies the site builds and key strings are present):
 
-## Dark mode
-- Not implemented. Theme uses CSS variables, so adding it is straightforward via `prefers-color-scheme` or a toggle.
+```bash
+bin/test.sh
+```
 
-## Known pitfalls / decisions
-- Use Docker for all builds/dev (no local Node install required).
-- Do not use `wrangler deploy` (Workers). For Pages, either rely on CF build or use `wrangler pages deploy public`.
-- The original theme?s blog scaffolding and demo posts were removed; only `posts.json` remains to keep Eleventy collections working.
-- The footer attribution and Twitter links were removed (`showFooterAttribution: false` in `site.json`).
-- Avoid using Markdown heading anchors like `## Title {#id}` with Nunjucks if you hit template parsing errors; plain HTML headings or standard markdown headings are safe.
+### Cloudflare Pages deployment (GitHub-integrated)
+- Deployed on **Cloudflare Pages** integrated with GitHub.
+- **Build command**: `yarn build`
+- **Output directory**: `public`
+- `wrangler.jsonc` sets `pages_build_output_dir: public`.
 
-## Useful commands
-- Build: `bin/docker-build.sh`
-- Test: `bin/test.sh`
-- Dev: `bin/docker-dev.sh`
+Workflow:
+- **Pull Request (preview)**: pushing commits to a PR branch triggers Cloudflare Pages to publish a preview URL on the PR.
+- **Main branch (production)**: merging/pushing to `main` triggers a production deploy.
+- Manual (rarely needed):
 
-## Repo hygiene
-- History was squashed once; normal commits since then. Main branch is `main`.
-- Remote: `origin` ? `https://github.com/wojtekerbetowski/kata.camp.git`
+```bash
+# only if you need to publish local build outputs manually
+npx wrangler pages deploy public
+```
+
+### Day-to-day workflow for changes
+1. Implement edits locally.
+2. Ask for local review and provide run steps:
+   - Dev: `bin/docker-dev.sh` (open the local URL)
+   - Build/test: `bin/docker-build.sh && bin/test.sh`
+3. Push commits to a **PR branch** → reviewer uses the Cloudflare Pages preview link on the PR.
+4. After approval, merge to **main** for production deployment.
+
+### Useful paths
+- **Content**: `src/index.md`, `src/about.md`, blog posts in `src/posts/*.md`
+- **Layouts**: `src/layouts/*.njk`
+- **Data and nav**: `src/data/site.json` (header links, metadata)
+- **Images**: `src/images/`
+- **Styles/JS entries**: `src/css/main.css`, `src/js/main.js`
+
+### Quick reference
+- **Dev**: `bin/docker-dev.sh`
+- **Build**: `bin/docker-build.sh`
+- **Test**: `bin/test.sh`
+- **Entry points**: `.eleventy.js`, `webpack.config.js`, `postcss.config.js`, `wrangler.jsonc`
