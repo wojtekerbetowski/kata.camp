@@ -7,7 +7,8 @@ layout: base
 
 ## Sessions Overview
 
-### Workflow automation with LLMs and n8n
+### <span id="workflow-automation">Workflow automation with LLMs and n8n</span>
+
 **Speaker:** Paweł Andziak
 
 **Description:** In this hands-on workshop, you'll learn how to combine the power of n8n, a no-code/low-code automation platform, with LLMs to streamline everyday tasks and improve productivity. We'll explore practical, real-world automation scenarios by building AI-assisted workflows that eliminate repetitive manual work.
@@ -18,7 +19,8 @@ layout: base
 
 ---
 
-### Implementing features with Cursor IDE
+### <span id="cursor-features">Implementing features with Cursor IDE</span>
+
 **Speaker:** Ivan Lapa (Netflix)
 
 **Description:** We're going to build the blog posting feature with UI and backend together, getting familiar with Cursor features like planning mode, built-in browser, Figma + GitHub MPC servers.
@@ -29,7 +31,8 @@ layout: base
 
 ---
 
-### Code with Claude: Practical AI Development Workshop
+### <span id="code-with-claude">Code with Claude: Practical AI Development Workshop</span>
+
 **Speaker:** Tomasz Gancarczyk
 
 **Description:** Learn to code faster and smarter with Claude Code CLI. This hands-on workshop teaches essential AI-assisted development workflows through progressive coding challenges. Master effective prompting, iterative refinement, code navigation, and debugging with AI. Discover the mindset shift from "writing every line" to "directing an AI coding partner." Bring your laptop, leave with practical skills. All experience levels welcome.
@@ -40,7 +43,8 @@ layout: base
 
 ---
 
-### Code Refactoring in Cursor
+### <span id="code-refactoring">Code Refactoring in Cursor</span>
+
 **Speaker:** Matt Kutyba
 
 **Description:** Transform messy, legacy code into clean, maintainable software using Cursor IDE's AI capabilities. You'll learn practical techniques for AI-assisted refactoring of the messy project, that you can apply immediately in your daily work. (.NET C#)
@@ -51,7 +55,8 @@ layout: base
 
 ---
 
-### Rapid AI product delivery - from prototype to production
+### <span id="rapid-ai-delivery">Rapid AI product delivery - from prototype to production</span>
+
 **Speaker:** Maksymilian Majer
 
 **Description:** New tech companies need builders at every level. I will show you how to use Lovable.dev to collaboratively design products with your stakeholders (PMs, colleagues, and end users) and turn them into production-ready code.
@@ -62,7 +67,8 @@ layout: base
 
 ---
 
-### Spec-Driven Development: Building Better AI Agent Instructions
+### <span id="spec-driven">Spec-Driven Development: Building Better AI Agent Instructions</span>
+
 **Speaker:** Scott Frasso
 
 **Description:** Learn how to prevent AI coding agents from derailing by creating clear, codebase-aware specifications. We'll start by manually crafting an AGENTS.md file to understand what makes AI agents work effectively, then introduce Shotgun CLI—a tool that automates this process by indexing your codebase and generating specs that keep Cursor, Claude Code, and Windsurf on track. You'll leave with practical skills for directing AI agents and a tool that turns your intent into buildable specifications.
@@ -73,7 +79,8 @@ layout: base
 
 ---
 
-### Task Master: specs-driven development in practice
+### <span id="task-master">Task Master: specs-driven development in practice</span>
+
 **Speaker:** Łukasz Wróbel
 
 **Description:** Let's build a realistic project from scratch, without any dependencies on a specific coding agent or IDE, using CLI or chatting. We begin an idea, turn it into a clearly defined source of truth. Then we create a manageable plan with interconnected tasks that evolve with changing requirements. In the meantime we will learn how to use MCP tools and manage context in large projects.
@@ -84,7 +91,8 @@ layout: base
 
 ---
 
-### Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą
+### <span id="free-coding-agent">Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą</span>
+
 **Speaker:** Justyna Wojtczak
 
 **Description:** Praktyczny warsztat pokazujący, jak uruchomić darmowego agenta do generowania i refaktoryzacji kodu bez potrzeby korzystania z płatnych modeli.
@@ -99,9 +107,9 @@ layout: base
 
 | Time | Community Room | Auditorium | Collaboration Space |
 |------|----------------|------------|---------------------|
-| 10:30 | Task Master: specs-driven development in practice (Łukasz Wróbel) | Spec-Driven Development: Building Better AI Agent Instructions (Scott Frasso) | Code with Claude: Practical AI Development Workshop (Tomasz Gancarczyk) |
-| 11:30 | Task Master: specs-driven development in practice (Łukasz Wróbel) | Spec-Driven Development: Building Better AI Agent Instructions (Scott Frasso) | Code with Claude: Practical AI Development Workshop (Tomasz Gancarczyk) |
-| 12:30 | Rapid AI product delivery - from prototype to production (Maksymilian Majer) | Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą (Justyna Wojtczak) | |
-| 14:00 | Rapid AI product delivery - from prototype to production (Maksymilian Majer) | Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą (Justyna Wojtczak) | Code Refactoring in Cursor (Matt Kutyba) |
-| 15:00 | Workflow automation with LLMs and n8n (Paweł Andziak) | Implementing features with Cursor IDE (Ivan Lapa) | Code Refactoring in Cursor (Matt Kutyba) |
-| 16:00 | Workflow automation with LLMs and n8n (Paweł Andziak) | Implementing features with Cursor IDE (Ivan Lapa) | |
+| 10:30 | [Task Master: specs-driven development in practice](#task-master)<br>Łukasz Wróbel | [Spec-Driven Development: Building Better AI Agent Instructions](#spec-driven)<br>Scott Frasso | [Code with Claude: Practical AI Development Workshop](#code-with-claude)<br>Tomasz Gancarczyk |
+| 11:30 | [Task Master: specs-driven development in practice](#task-master)<br>Łukasz Wróbel | [Spec-Driven Development: Building Better AI Agent Instructions](#spec-driven)<br>Scott Frasso | [Code with Claude: Practical AI Development Workshop](#code-with-claude)<br>Tomasz Gancarczyk |
+| 12:30 | [Rapid AI product delivery - from prototype to production](#rapid-ai-delivery)<br>Maksymilian Majer | [Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą](#free-coding-agent)<br>Justyna Wojtczak | |
+| 14:00 | [Rapid AI product delivery - from prototype to production](#rapid-ai-delivery)<br>Maksymilian Majer | [Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą](#free-coding-agent)<br>Justyna Wojtczak | [Code Refactoring in Cursor](#code-refactoring)<br>Matt Kutyba |
+| 15:00 | [Workflow automation with LLMs and n8n](#workflow-automation)<br>Paweł Andziak | [Implementing features with Cursor IDE](#cursor-features)<br>Ivan Lapa | [Code Refactoring in Cursor](#code-refactoring)<br>Matt Kutyba |
+| 16:00 | [Workflow automation with LLMs and n8n](#workflow-automation)<br>Paweł Andziak | [Implementing features with Cursor IDE](#cursor-features)<br>Ivan Lapa | |

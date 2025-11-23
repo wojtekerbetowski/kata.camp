@@ -29,12 +29,12 @@ The event features **8 hands-on workshops** running in parallel across three tra
 
 | Time | Community Room | Auditorium | Collaboration Space |
 |------|----------------|------------|---------------------|
-| 10:30 | Task Master: specs-driven development in practice (Łukasz Wróbel) | Spec-Driven Development: Building Better AI Agent Instructions (Scott Frasso) | Code with Claude: Practical AI Development Workshop (Tomasz Gancarczyk) |
-| 11:30 | Task Master: specs-driven development in practice (Łukasz Wróbel) | Spec-Driven Development: Building Better AI Agent Instructions (Scott Frasso) | Code with Claude: Practical AI Development Workshop (Tomasz Gancarczyk) |
-| 12:30 | Rapid AI product delivery - from prototype to production (Maksymilian Majer) | Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą (Justyna Wojtczak) | |
-| 14:00 | Rapid AI product delivery - from prototype to production (Maksymilian Majer) | Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą (Justyna Wojtczak) | Code Refactoring in Cursor (Matt Kutyba) |
-| 15:00 | Workflow automation with LLMs and n8n (Paweł Andziak) | Implementing features with Cursor IDE (Ivan Lapa) | Code Refactoring in Cursor (Matt Kutyba) |
-| 16:00 | Workflow automation with LLMs and n8n (Paweł Andziak) | Implementing features with Cursor IDE (Ivan Lapa) | |
+| 10:30 | [Task Master: specs-driven development in practice](/agenda#task-master)<br>Łukasz Wróbel | [Spec-Driven Development: Building Better AI Agent Instructions](/agenda#spec-driven)<br>Scott Frasso | [Code with Claude: Practical AI Development Workshop](/agenda#code-with-claude)<br>Tomasz Gancarczyk |
+| 11:30 | [Task Master: specs-driven development in practice](/agenda#task-master)<br>Łukasz Wróbel | [Spec-Driven Development: Building Better AI Agent Instructions](/agenda#spec-driven)<br>Scott Frasso | [Code with Claude: Practical AI Development Workshop](/agenda#code-with-claude)<br>Tomasz Gancarczyk |
+| 12:30 | [Rapid AI product delivery - from prototype to production](/agenda#rapid-ai-delivery)<br>Maksymilian Majer | [Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą](/agenda#free-coding-agent)<br>Justyna Wojtczak | |
+| 14:00 | [Rapid AI product delivery - from prototype to production](/agenda#rapid-ai-delivery)<br>Maksymilian Majer | [Nie tylko Claude i Codex - jak za darmo korzystać z agenta kodującego pod konsolą](/agenda#free-coding-agent)<br>Justyna Wojtczak | [Code Refactoring in Cursor](/agenda#code-refactoring)<br>Matt Kutyba |
+| 15:00 | [Workflow automation with LLMs and n8n](/agenda#workflow-automation)<br>Paweł Andziak | [Implementing features with Cursor IDE](/agenda#cursor-features)<br>Ivan Lapa | [Code Refactoring in Cursor](/agenda#code-refactoring)<br>Matt Kutyba |
+| 16:00 | [Workflow automation with LLMs and n8n](/agenda#workflow-automation)<br>Paweł Andziak | [Implementing features with Cursor IDE](/agenda#cursor-features)<br>Ivan Lapa | |
 
 View the [complete agenda](/agenda) for full session descriptions, speaker bios, and requirements.
 
