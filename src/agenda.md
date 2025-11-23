@@ -1,3 +1,9 @@
+---
+title: Agenda - AI Kata Warsaw
+layout: base
+---
+
+
 # AI Kata Camp - Complete Agenda
 
 ## Sessions Overview
