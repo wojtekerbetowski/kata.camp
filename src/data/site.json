@@ -9,6 +9,11 @@
   "defaultSocialImage": "/images/banner.png",
   "headerLinks": [
     {
+      "text": "FAQ",
+      "url": "/faq",
+      "external": false
+    },
+    {
       "text": "Blog",
       "url": "/blog",
       "external": false
@@ -16,11 +21,6 @@
     {
       "text": "Agenda",
       "url": "/agenda",
-      "external": false
-    },
-    {
-      "text": "Events",
-      "url": "/#events",
       "external": false
     },
     {

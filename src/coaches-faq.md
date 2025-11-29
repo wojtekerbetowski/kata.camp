@@ -82,4 +82,4 @@ Yes. Community events thrive on sharing practical slices of your real work. Teac
 - Backup plan: branch per checkpoint; zip file; or codespaces/devcontainer.
 
 ## Want kata ideas?
-See curated ideas at `/workshop/kata-ideas/`.
+See curated ideas at [/workshop/kata-ideas/](/workshop/kata-ideas/).

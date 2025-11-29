@@ -23,6 +23,10 @@ Our mission is to make everyday software engineering better through repeated, de
 **Format**: Expert-led, practical katas with real-world AI tooling  
 **Notes**: Non-profit, community event; no recordings; food and coffee provided
 
+# Attendee FAQ
+
+For logistics, preparation tips, parking, language policy, safety, and contacts, see the [Attendee FAQ](/faq/).
+
 # Schedule Overview
 
 The event features **8 hands-on workshops** running in parallel across three tracks throughout the day:
