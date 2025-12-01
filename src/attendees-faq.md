@@ -32,6 +32,17 @@ See the full [agenda](/agenda) for session descriptions, bios, and requirements.
 - Update your editor/terminal and test that everything runs
 - Disable notifications and set an accessible font size for live coding
 
+## How to prepare (tools and accounts)
+- **Cursor IDE (trial OK)**: required for [Implementing features with Cursor IDE](/agenda#cursor-features) and [Code Refactoring in Cursor](/agenda#code-refactoring).
+- **Claude Pro (Claude Code Pro)**: required for [Code with Claude: Practical AI Development Workshop](/agenda#code-with-claude) and [Rapid AI product delivery](/agenda#rapid-ai-delivery). Also create a free **Lovable.dev** account for the Rapid AI session.
+- **n8n.io account + LLM API key (OpenAI preferred)**: required for [Workflow automation with LLMs and n8n](/agenda#workflow-automation).
+- **.NET 10 SDK**: required for [Code Refactoring in Cursor](/agenda#code-refactoring).
+- **LLM API keys (OpenAI/Anthropic/Gemini)**: used across multiple sessions, including [Spec‑Driven Development](/agenda#spec-driven) and [Task Master](/agenda#task-master).
+- **AI coding agent (e.g., Codex, Claude Code, Windsurf)**: required for [Spec‑Driven Development](/agenda#spec-driven). Optional: **Shotgun CLI** ([app.shotgun.sh](https://app.shotgun.sh/)) with an API key.
+- **opencode + your dev environment**: required for [Not Only Claude and Codex – free console agent (PL)](/agenda#free-coding-agent).
+
+Tip: If you plan to switch rooms, set up these tools in advance so you can jump in quickly.
+
 ## Languages during sessions
 We focus on and encourage **English** for sessions. All presentations are planned in English.  
 If your session is in Polish, please let the organizers know in advance so we can communicate it clearly to attendees.
