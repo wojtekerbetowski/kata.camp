@@ -6,6 +6,10 @@ layout: base
 
 # AI Kata Camp - Complete Agenda
 
+## Complete Schedule
+
+{% include "schedule.njk" %}
+
 ## Sessions Overview
 
 ### <span id="workflow-automation">Workflow automation with LLMs and n8n</span>
@@ -106,14 +110,4 @@ layout: base
 
 ---
 
-## Complete Schedule
-
-| Time   | Community Room | Auditorium | Collaboration Space |
-|--------|----------------|------------|---------------------|
-| 10:30  | [Task Master: specs-driven development in practice](#task-master)<br>Łukasz Wróbel | [Spec-Driven Development: Building Better AI Agent Instructions](#spec-driven)<br>Scott Frasso | [Code with Claude: Practical AI Development Workshop](#code-with-claude)<br>Tomasz Gancarczyk |
-| 11:30  | [Task Master: specs-driven development in practice](#task-master)<br>Łukasz Wróbel | [Spec-Driven Development: Building Better AI Agent Instructions](#spec-driven)<br>Scott Frasso | [Code with Claude: Practical AI Development Workshop](#code-with-claude)<br>Tomasz Gancarczyk |
-| 12:30  | [Rapid AI product delivery - from prototype to production](#rapid-ai-delivery)<br>Maksymilian Majer | [Not Only Claude and Codex – How to Use a Coding Agent Under the Console for Free[PL]](#free-coding-agent)<br>Justyna Wojtczak ||
-| 13:15 | Lunch break | 
-| 14:00  | [Rapid AI product delivery - from prototype to production](#rapid-ai-delivery)<br>Maksymilian Majer | [Not Only Claude and Codex – How to Use a Coding Agent Under the Console for Free [PL]](#free-coding-agent)<br>Justyna Wojtczak | [Code Refactoring in Cursor](#code-refactoring)<br>Matt Kutyba |
-| 15:00  | [Workflow automation with LLMs and n8n](#workflow-automation)<br>Paweł Andziak | [Implementing features with Cursor IDE](#cursor-features)<br>Ivan Lapa | [Code Refactoring in Cursor](#code-refactoring)<br>Matt Kutyba |
-| 16:00  | [Workflow automation with LLMs and n8n](#workflow-automation)<br>Paweł Andziak | [Implementing features with Cursor IDE](#cursor-features)<br>Ivan Lapa |  |
+ 
