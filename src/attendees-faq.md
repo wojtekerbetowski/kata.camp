@@ -68,7 +68,7 @@ In the event of any form of harassment or safety concern, please report it immed
 
 ## Contact
 For help on the day, you can ask organizers, volunteers, or security.  
-Emergency/urgent contact: **GDG lead Michał Jabłoński — +48 501 30 99 22**
+Emergency/urgent contact: **GDG lead Michał Jabłoński**
 
 ## Still have questions?
 Check the [agenda](/agenda) and the homepage for updates. If something’s missing, speak to an organizer on site.
