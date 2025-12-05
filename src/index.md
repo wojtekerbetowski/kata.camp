@@ -10,10 +10,9 @@ We emphasize hands-on learning, practical techniques, and collaborative improvem
 
 Our mission is to make everyday software engineering better through repeated, deliberate practice guided by experts.
 
-# Register
+# Registration
 
-<iframe src="https://app.evenea.pl/event/ai-kata-warsaw/?out=1&source=event_iframe" width="100%" scrolling="no" style="border: 0;"></iframe>
-<script type="text/javascript" src="https://app.evenea.pl/js/iframe/new/iframeResizer2.js"></script>
+We have run out of tickets for this event.
 
 # Event details
 
