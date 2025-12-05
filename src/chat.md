@@ -12,5 +12,5 @@ title: 'Chat'
 }
 </style>
 
-<iframe src="https://embed.tlk.io/kata-camp?theme=minimal" width="100%" height="600px" style="border: 0;"></iframe>
+<iframe src="https://embed.tlk.io/ai-kata?theme=minimal" width="100%" height="600px" style="border: 0;"></iframe>
 
